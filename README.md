@@ -6,4 +6,6 @@
 
 Table of contents:
 
+Navbar Limitations:
 
+The nav-bar contains a link to the glossary on the home page. In an ideal world, this would be done using a modal however the project is limited in scope. As a stopgap solution, it will redirect back to the home page. 
