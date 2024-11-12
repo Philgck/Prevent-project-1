@@ -24,15 +24,15 @@
 <!-- Navbar -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Prevent</a><a class="nav-link" href="https://www.youtube.com/">Leave this page quickly</a>
+        <a class="navbar-brand" href="index.html">Prevent</a><a class="nav-link" href="https://www.youtube.com/">Leave this page quickly</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">What it is</a>
+                    <a class="nav-link" href="what-it-is.html">What it is</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Why it is important</a>
@@ -42,6 +42,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">How to do it right</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#glossary">Glossary of terms</a>
                 </li>
             </ul>
         </div>
@@ -141,52 +144,56 @@
         </section>
         <!-- Glossary -->
         <section class="container">
-            <h1>Glossary</h1>
+            <h1><a id="glossary"></h1>
             <div class="row">
-                <div class="col-lg-3">
-                    <h2>Safeguarding</h2>
-                    <p> <a
-                            href="https://www.england.nhs.uk/safeguarding/about/#:~:text=Safeguarding%20means%20protecting%20a%20citizen's,adults%20is%20a%20collective%20responsibility.">According
-                            to the NHS</a>Safeguarding means protecting a citizen's health, wellbeing and human rights;
-                        enabling them to
-                        live free from harm, abuse and neglect. It is an integral part of providing high-quality health
-                        care. Safeguarding children, young people and adults is a collective responsibility. </p>
+                <div class="col-lg-3 mb-4 d-flex align-items-stretch">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h2 class="card-title">Safeguarding</h2>
+                            <p class="card-text"><a href="https://www.england.nhs.uk/safeguarding/about/#:~:text=Safeguarding%20means%20protecting%20a%20citizen's,adults%20is%20a%20collective%20responsibility.">According to the NHS</a> Safeguarding means protecting a citizen's health, wellbeing and human rights; enabling them to live free from harm, abuse and neglect. It is an integral part of providing high-quality health care. Safeguarding children, young people and adults is a collective responsibility.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3">
-                    <h2>Radicalisation</h2>
-                    <p>Radicalisation is the process by which a person comes to support or be involved in extremist
-                        ideologies. It is in of iteself a form of harm. </p>
+                <div class="col-lg-3 mb-4 d-flex align-items-stretch">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h2 class="card-title">Radicalisation</h2>
+                            <p class="card-text">Radicalisation is the process by which a person comes to support or be involved in extremist ideologies. It is in of itself a form of harm.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3">
-                    <h2>Extremism</h2>
-                    <p>Extremism is the holding of extreme political or religious views. It is not illegal to hold these
-                        views, but it can be harmful if they lead to violence or other illegal activities. What is
-                        considered to be extremism can change over time, and different societies have different opinions
-                        on what counts as an extremist view.</p>
+                <div class="col-lg-3 mb-4 d-flex align-items-stretch">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h2 class="card-title">Extremism</h2>
+                            <p class="card-text">Extremism is the holding of extreme political or religious views. It is not illegal to hold these views, but it can be harmful if they lead to violence or other illegal activities. What is considered to be extremism can change over time, and different societies have different opinions on what counts as an extremist view.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3">
-                    <h2>Terrorism</h2>
-                    <p>Terrorism is the use of violence or the threat of violence to achieve a political goal. The
-                        European Union defines terrorism as acts that:</p>
-                    <ul>
-                        <li>Intimidate a population,</li>
-                        <li>Compel a government or international organisation to act or not act</li>
-                        <li>Destabilise or destroy a country's political, constituutional, economic or social structures
-                        </li>
-                    </ul>
+                <div class="col-lg-3 mb-4 d-flex align-items-stretch">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h2 class="card-title">Terrorism</h2>
+                            <p class="card-text">Terrorism is the use of violence or the threat of violence to achieve a political goal. The European Union defines terrorism as acts that:</p>
+                            <ul>
+                                <li>Intimidate a population,</li>
+                                <li>Compel a government or international organisation to act or not act</li>
+                                <li>Destabilise or destroy a country's political, constitutional, economic or social structures</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
         </section>
     </main>
     <!-- Footer -->
     <footer class="bg-light text-center text-lg-start">
-        <div class="container p-4">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <div class="container p-2">
+            <div class="row d-flex justify-content-around align-items-center">
+                <div class="col-4">
                     <h5 class="text-uppercase">Prevent Project</h5>
                     <p>Safeguarding in a dangerous world.</p>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Links</h5>
+                <div class="col-4">
                     <ul class="list-unstyled mb-0">
                         <li>
                             <a href="#!" class="text-dark">Privacy Policy</a>
@@ -196,10 +203,10 @@
                         </li>
                     </ul>
                 </div>
+                <div class="col-4">
+                    <p>© 2023 Prevent Project</p>
+                </div>
             </div>
-        </div>
-        <div class="text-center p-3 bg-dark text-white">
-            © 2023 Prevent Project
         </div>
     </footer>
 
