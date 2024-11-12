@@ -32,3 +32,11 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+.active {
+    font-weight: bold;
+}
+
+a:hover {
+    font-weight: bold;
+}
