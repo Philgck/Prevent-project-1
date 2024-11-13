@@ -1,6 +1,6 @@
 # Prevent: Safeguarding in a Dangerous World
 
-### A project utilising HTML, CSS, Bootstrap and relevant AI tools.
+### A project utilising HTML, CSS, Bootstrap and relevant AI tools. https://philgck.github.io/Prevent-project-1/
 
 The intent of the website was to provide a single point for anyone looking for information about prevent, what the prevent programme does, how to spot the signs of radicalisation and as part of the wider information about prevent, some criticisms. This was split into 4 key pages, one providing an overview and being the home page, also containing a glossary of terms. “What it is” is dedicated to more specific knowledge about prevent and the core aspects of the prevent strategy, alongside a link to the specific guidance for those who needed more in depth information. “How you can help” is dedicated to the warning signs that someone can look out for and some strategies. “What it should not be” is dedicated to some criticisms of the prevent project, to remain more balanced broadly and as part of achieving the goal of providing someone with an overview of prevent. 
  
