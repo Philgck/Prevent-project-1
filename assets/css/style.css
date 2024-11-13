@@ -1,3 +1,44 @@
+/* Variables */
+:root {
+    --primary-color: rgb(73, 73, 73);
+    --secondary-color: lightgrey;
+    --primary-font: 'Convergence', sans-serif;
+    --secondary-font: 'Noto Sans', sans-serif;
+}
+
+/* Fonts */
+.convergence-regular {
+    font-family: "Convergence", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noto-sans-body {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth"100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+
+/* Hero Section */
 .hero {
     background-image: url('../images/hero.jpg');
     background-size: cover;
@@ -6,32 +47,30 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
     text-align: center;
 }
 
 .hero-text {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--secondary-color);
     padding: 20px;
     border-radius: 10px;
 }
 
+/* General Styling */
+
 section {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-.objectives {
-    display: flex;
-    flex-direction: row;
+.card {
+    background-color: var(--secondary-color);
+    /*
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px; */
 }
 
-.objectives > div {
-    flex: 1;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* Navbar and link Styling */
 
 .active {
     font-weight: bold;
@@ -39,4 +78,19 @@ section {
 
 a:hover {
     font-weight: bold;
+}
+
+/* What it is specific styling */
+
+.objectives {
+    display: flex;
+    flex-direction: row;
+}
+
+.objectives>div {
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
