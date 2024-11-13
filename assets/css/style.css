@@ -2,8 +2,8 @@
 :root {
     --primary-color: rgb(73, 73, 73);
     --secondary-color: lightgrey;
-    --primary-font: 'Convergence', sans-serif;
-    --secondary-font: 'Noto Sans', sans-serif;
+    --primary-font: 'Convergence', sans-serif,
+        --secondary-font: 'Noto Sans', sans-serif,
 }
 
 /* Fonts */
@@ -30,11 +30,13 @@ h5,
 h6 {
     font-family: var(--primary-font);
     color: var(--primary-color);
+    letter-spacing: .2rem;
 }
 
 p {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    letter-spacing: .2rem;
 }
 
 
@@ -64,13 +66,21 @@ section {
 
 .card {
     background-color: var(--secondary-color);
-    /*
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px; */
+
 }
 
 /* Navbar and link Styling */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    letter-spacing: .2rem;
+
+}
 
 .active {
     font-weight: bold;

@@ -8,13 +8,13 @@ In the top left there is a “Leave this website immediately” button that is a
 
 Each page uses a combination of flex or bootstrap in order to maintain responsive design. The website was first designed to look good, clear and readable on mobile phone due to the mobile first approach, and at different break points the content on each page expands to better utilise the space. I tried to make sure the same amount of content was on each page, and that each page had a similar design ethos, with the exception of the page that covers warning signs to consider: There are simply too many categories or signs. The How You Can Help page was therefore styled using bootstrap cards containing lists, broken into two equal sized columns per row. 
 
-Microsoft copilot was used to generate the hero image and one other image, although it did not make it into the final project. Despite specific prompts, I found image generation using AI tools to take far more time than it saved, and considering the informative nature of the site, I made the decision that having images associated with each card or block of text on the site would be a nice feature, but not an essential one. Further, I found guidance (HERE: LINK) that said images by next can make a site harder to use for those with dyslexia. 
+Microsoft copilot was used to generate the hero image and one other image, although it did not make it into the final project. Despite specific prompts, I found image generation using AI tools to take far more time than it saved, and considering the informative nature of the site, I made the decision that having images associated with each card or block of text on the site would be a nice feature, but not an essential one.
 
 With regards to code, copilot was only used to streamline the completion of tasks that I had already done at least once: I found some of the suggested prompts to be unhelpful. Further, I kept receiving error messages about the ethical use of AI when asking it for assistance with tasks. From a brief search, it appears that sometimes copilot will refuse to work on tasks that are associated with certain subjects, and I believe the content of the site itself and the resultant references to terrorism or extremism might have been flagging the output. Chat GPT was used to generate the list of warning signs for extremism, and the content itself was then double checked in order to make sure that it was accurate and made grammatical sense. 
 
 The text and colour scheme were created after consulting a guide on dyslexia friendly fonts and colour schemes. Had I had more time, I would have considered styling the site itself differently and adding accessibility features that restyled the site. However considering the time constraints and the fact that the site was largely textual in nature, I simply thought it expedient to set up the entire site to be dyslexia friendly in the first instance.
 
-PROJECT PLANNING
+# PROJECT PLANNING
 
 I used copilot to generate a series of user-stories, which I then tweaked in order to create a list of 5 users with different needs in order to keep the project on track. 
 
@@ -24,6 +24,9 @@ Research and attribution:
 https://fontjoy.com/
 https://business.scope.org.uk/how-to-write-better-website-content-for-people-with-dyslexia/?gad_source=1&gclid=CjwKCAiAudG5BhAREiwAWMlSjBDhEAM1GdpOaoBXOYHiZGdwXwxH_DFxMmcWaH4n-bCWUK3gwQRSsBoC69UQAvD_BwE
 https://www.gov.uk/government/publications/prevent-duty-guidance
+https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
 https://www.counterterrorism.police.uk/what-we-do/prevent/
-https://blogs.lse.ac.uk/lsereviewofbooks/2014/07/08/book-review-the-muslims-are-coming-islamophobia-extremism-and-the-domestic-war-on-terror-by-arun-kundnani/
+https://blogs.lse.ac.uk/lsereviewofbooks/2014/07/08/
+book-review-the-muslims-are-coming-islamophobia-extremism-and-the-domestic-war-on-terror-by-arun-kundnani/
+
 The Muslims are Coming, Arun Kundinani. Reading this in the past is what has given me a wider understanding of the prevent programme and contextualised some of the criticisms, which is why I felt it important to include them from an ethical perspective. 
