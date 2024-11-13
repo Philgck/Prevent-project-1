@@ -2,8 +2,6 @@
 
 ### A project utilising HTML, CSS, Bootstrap and relevant AI tools.
 
-#### Overview
-
 The intent of the website was to provide a single point for anyone looking for information about prevent, what the prevent programme does, how to spot the signs of radicalisation and as part of the wider information about prevent, some criticisms. This was split into 4 key pages, one providing an overview and being the home page, also containing a glossary of terms. “What it is” is dedicated to more specific knowledge about prevent and the core aspects of the prevent strategy, alongside a link to the specific guidance for those who needed more in depth information. “How you can help” is dedicated to the warning signs that someone can look out for and some strategies. “What it should not be” is dedicated to some criticisms of the prevent project, to remain more balanced broadly and as part of achieving the goal of providing someone with an overview of prevent. 
  
 In the top left there is a “Leave this website immediately” button that is always visible, an idea I saw on a council website that I looked at as part of research ahead of the project. Many websites that cover safeguarding issues have similar, as it is essential that someone be able to quickly leave a page if the person they are concerned about is potentially able to see what they are looking at. The nav bar as a result is always pinned to make sure that you can easily see where to go, and how to leave quickly. The nav bar was styled to make sure that on smaller screens the quick escape button is still visible. 
@@ -46,17 +44,22 @@ Had I had more time, some other features I was wanting to add included a carouse
 
 # Validation and Testing
 
-During testing I found some issues with the iframe on the What It Should Not Be page, which were corrected by adding a minimum height. However, despite width 100% being flagged by W3C, it seemingly works. Frameborder is now flagged as obsolete, which was copied across from the youtube embed link/
+During testing I found some issues with the iframe on the What It Should Not Be page, which were corrected by adding a minimum height. However, despite width 100% being flagged by W3C, it seemingly works. Frameborder is now flagged as obsolete, which was copied across from the youtube embed link.
+
 W3C CSS Validation found an error in the secondary font, which was not working due to a missing ;, and corrected. After this no errors were found.
+
 W3C HTML Validation found that I had accidentally placed the nav bar outside the body tag, once this was corrected no more errors were found. 
 
-# Research and attribution:
-https://fontjoy.com/
-https://business.scope.org.uk/how-to-write-better-website-content-for-people-with-dyslexia/?gad_source=1&gclid=CjwKCAiAudG5BhAREiwAWMlSjBDhEAM1GdpOaoBXOYHiZGdwXwxH_DFxMmcWaH4n-bCWUK3gwQRSsBoC69UQAvD_BwE
-https://www.gov.uk/government/publications/prevent-duty-guidance
-https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
-https://www.counterterrorism.police.uk/what-we-do/prevent/
-https://blogs.lse.ac.uk/lsereviewofbooks/2014/07/08/
-book-review-the-muslims-are-coming-islamophobia-extremism-and-the-domestic-war-on-terror-by-arun-kundnani/
 
-The Muslims are Coming, Arun Kundinani. Reading this in the past is what has given me a wider understanding of the prevent programme and contextualised some of the criticisms, which is why I felt it important to include them from an ethical perspective. 
+# Research and attribution:
+https://fontjoy.com/ - Was used to select fonts.
+https://business.scope.org.uk/how-to-write-better-website-content-for-people-with-dyslexia/?gad_source=1&gclid=CjwKCAiAudG5BhAREiwAWMlSjBDhEAM1GdpOaoBXOYHiZGdwXwxH_DFxMmcWaH4n-bCWUK3gwQRSsBoC69UQAvD_BwE - Used to make sure the website was easily viewed for people with dyslexia. 
+https://www.gov.uk/government/publications/prevent-duty-guidance - Was used for research for the project. 
+https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide - Also used to make sure the website was easily viewed for people with dyslexia. 
+https://www.counterterrorism.police.uk/what-we-do/prevent/ - Was used for research for the project. 
+https://blogs.lse.ac.uk/lsereviewofbooks/2014/07/08/book-review-the-muslims-are-coming-islamophobia-extremism-and-the-domestic-war-on-terror-by-arun-kundnani/ - The Muslims are Coming, Arun Kundinani. Reading this in the past is what has given me a wider understanding of the prevent programme and contextualised some of the criticisms, which is why I felt it important to include them from an ethical perspective.
+
+Dandarr: Friend with dyslexia used as an external tester. Flagged issue with the list items.
+
+![image](https://github.com/user-attachments/assets/d6eb06ed-fdc3-4f91-aca3-4be6e565f18d)
+
