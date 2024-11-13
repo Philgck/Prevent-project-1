@@ -50,6 +50,17 @@ W3C CSS Validation found an error in the secondary font, which was not working d
 
 W3C HTML Validation found that I had accidentally placed the nav bar outside the body tag, once this was corrected no more errors were found. 
 
+# Lighthouse Report
+
+![image](https://github.com/user-attachments/assets/280e3fc8-ee66-47cd-9c82-2bf08b42e5a7)
+
+On mobile phone, the site paints too slowly. Javascript has slowed down the first paint of the website. Even with a compressed hero image, it still slows down loading.
+
+![image](https://github.com/user-attachments/assets/7d8fd43c-4eb7-43ce-8163-d5987cd51d9c)
+
+However, the lighthouse report for desktop is much more positive.
+
+Lighthouse testing was missed until too close to make changes.
 
 # Research and attribution:
 https://fontjoy.com/ - Was used to select fonts.
